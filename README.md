@@ -1,23 +1,36 @@
 # Finimize Full-Stack Development Challenge
 
 - How you approached the challenge
-  Design
+  
+## Design
 
 As with most problems I take on through code I started on the drawing board and working with designs. I took this opportunity to get the requirements and mock up some designs in Figma.
+
+![Screenshot 2021-04-08 at 14 47 38](https://user-images.githubusercontent.com/19519073/114050993-a4079f00-9884-11eb-96f6-b4e958b595fa.png)
 
 This just gives me focus on what to build. As the challenge spec wanted us to show how we focus on UI I wanted to take the time to dissect the requirements and draw up a design that customers would find easy to use and also would give value to the hypothetical business. There were some additional features that I wanted in this design that I included and had built in the final build. I split the main app into 3 pages of components to break down the flow for the customer using it.
 
 1. Personal Data Entry - This allows details for the customer to enter their own personal details in. This was an extra feature but the rational for this primarily was for a better UI experience. This would allow for a more personalised UI for the user so making them more invested by addressing them by their name and making them feel the expereience was tailored for them. If this would be expanded on it could collect/ store data to email the customer their results or for business reasons. In this case nothing is stored and is used for demo purposes.
+![Screenshot 2021-04-08 at 16 09 18](https://user-images.githubusercontent.com/19519073/114051334-e6c97700-9884-11eb-84de-13108df10a06.png)
+
 
 Note: I also made sure not to overdo it with the inputs and kept to what was needed for this demo. Just from past experience it is best only to collect vital data for regulatory reasons. Some fields might be expanded depending on the need. From a past project at a bank fields for gender for example were only necessary when running calculations for insurance related queries. For this instance I just collected what would be minimal for personalisation.
 
 2. Choosing the calculator mode - The second section is to break down the flow and just give the customer a chance to decide their view for the main calculation summary page. I offer a choice between simple and advanced here. This was an extra feature but allows me to show off some conditional rendering. It also helps from a UI perspective to make sure it starts off in the simple mode ,so it does not alienate the customer.
+![Screenshot 2021-04-08 at 16 09 30](https://user-images.githubusercontent.com/19519073/114051386-f47efc80-9884-11eb-9ac8-4e0135cda254.png)
 
 3. Calculating the savings -The final section shows the actual calculation page. It will show some personalisation based to the user. All components have been built so that changes are automatically reflected in the values of the summary and the graph. I added the option for users to calculate interest and different periods by adding a toggle. The graph will be updated automatically on changes. I also made sure it is a step graph to show user exactly how much their money will be at a certain point. I adjusted the legends to show the years and months and the user will see this on teh label when they select a certain point on the graph.
+![Screenshot 2021-04-08 at 16 10 00](https://user-images.githubusercontent.com/19519073/114051440-006abe80-9885-11eb-9c3d-c32b3e53f247.png)
+
+The user will also see a less detailed view in the 'simple' Mode:
+![Screenshot 2021-04-08 at 16 09 39](https://user-images.githubusercontent.com/19519073/114051643-2e500300-9885-11eb-81d1-4360b1e44993.png)
+
 
 I also added the feature of adding reading suggestions. The main reason for this is to extend the customer journey more. It will be tailored to the user's savings (so above 50000 after 50 years will show another article). It just shows the customer the next steps that they can take. It also helps the business guide the customer to other products or provide back links.
+![Screenshot 2021-04-08 at 16 10 05](https://user-images.githubusercontent.com/19519073/114051488-095b9000-9885-11eb-9860-d8d7bbc30b4b.png)
 
-Code
+
+## Code
 
 I tackled the code first by updating the tooling to make sure standards were being upheld in terms of linting and typing. I added a few scripts also to make sure that these items were dealt with before commits were made to keep the standard of the code relatively good.
 
@@ -25,7 +38,7 @@ I first started at the server. I made it so that the main route would calculate 
 
 I then broke down the application by components and built them up from the Chakra UI. A lot were stylistic changes to add for a better UI such as through the addition of validation. I broke down each component with a dedicated folder which contained its interfaces, tests and the main component.
 
-I implemented and created a context wrapper with the reducer as the app I wanted to create has this validation and layers through the pages. I create a central store to hold this and wrapped this around the main app so it had access to the store and the dispatch methods through `useContext`. Once it was all constructed, I made sure I was getting data from the server, and then finished off by making sure that the app was responsive.
+I implemented and created a context wrapper with the reducer as the app I wanted to create a store that deals with the validation and various layers of the pages. I create a central store to hold this and wrapped this around the main app so it had access to the store and the dispatch methods through `useContext`. Once it was all constructed, I made sure I was getting data from the server, and then finished off by making sure that the app was responsive.
 
 Finally, I made sure the majority of the front end was fully tested. What really helped was creating a `customRender` method to get access to the dispatch to see whether it was being called. This sped up the process drastically and allowed me to get the majority of the app tested with ease.
 
