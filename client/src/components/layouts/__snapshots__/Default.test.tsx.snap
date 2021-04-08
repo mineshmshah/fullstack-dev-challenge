@@ -209,10 +209,10 @@ exports[`component/Default Layout renders page 2 1`] = `
            Choose one of the options below to to see how much money you can save:
         </p>
         <div
-          class="css-1wlqeol"
+          class="css-1ebfdb9"
         >
           <div
-            class="css-ocze9x"
+            class="css-1igbll5"
             role="radiogroup"
           >
             <label
@@ -228,7 +228,7 @@ exports[`component/Default Layout renders page 2 1`] = `
               />
               <div
                 aria-hidden="true"
-                class="css-1r0ytuv"
+                class="css-1lcjv34"
                 data-checked=""
               >
                 Simple
@@ -246,7 +246,7 @@ exports[`component/Default Layout renders page 2 1`] = `
               />
               <div
                 aria-hidden="true"
-                class="css-1r0ytuv"
+                class="css-1lcjv34"
               >
                 Advanced
               </div>
@@ -258,7 +258,7 @@ exports[`component/Default Layout renders page 2 1`] = `
             <p
               class="chakra-text css-8om1m1"
             >
-              This will allow you to see excatly how much your money will grow over time as soon as you make your first deposit.
+              This will allow you to see excatly how much your money will grow over time as soon as you make your first deposit. This will only calculate interest that is compounded annually.
             </p>
           </div>
         </div>
@@ -352,7 +352,10 @@ exports[`component/Default Layout renders page 3 1`] = `
         <p
           class="chakra-text css-1hgde6q"
         >
-          Total Savings in 50 years
+          
+           
+          
+          's total savings in 50 years will be:
         </p>
         <p
           class="chakra-text css-koy48z"

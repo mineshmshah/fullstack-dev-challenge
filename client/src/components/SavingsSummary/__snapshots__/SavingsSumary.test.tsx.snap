@@ -14,7 +14,10 @@ exports[`component/SavingsSummary renders Savings summary component 1`] = `
     <p
       class="chakra-text css-1hgde6q"
     >
-      Total Savings in 50 years
+      
+       
+      
+      's total savings in 50 years will be:
     </p>
     <p
       class="chakra-text css-koy48z"

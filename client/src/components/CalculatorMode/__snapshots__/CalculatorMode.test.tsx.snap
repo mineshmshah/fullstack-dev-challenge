@@ -22,10 +22,10 @@ exports[`component/CalculatorMode allows calculator modes to be changed to advac
          Choose one of the options below to to see how much money you can save:
       </p>
       <div
-        class="css-1wlqeol"
+        class="css-1ebfdb9"
       >
         <div
-          class="css-ocze9x"
+          class="css-1igbll5"
           role="radiogroup"
         >
           <label
@@ -41,7 +41,7 @@ exports[`component/CalculatorMode allows calculator modes to be changed to advac
             />
             <div
               aria-hidden="true"
-              class="css-1r0ytuv"
+              class="css-1lcjv34"
             >
               Simple
             </div>
@@ -58,7 +58,7 @@ exports[`component/CalculatorMode allows calculator modes to be changed to advac
             />
             <div
               aria-hidden="true"
-              class="css-1r0ytuv"
+              class="css-1lcjv34"
               data-checked=""
             >
               Advanced
@@ -71,7 +71,7 @@ exports[`component/CalculatorMode allows calculator modes to be changed to advac
           <p
             class="chakra-text css-8om1m1"
           >
-            This advanced setting will let you picture how much you could posssibly make if you were contributing regularly to your account
+            This advanced setting will let you picture how much you could posssibly make if you were contributing regularly to your account. You can add monthly contributions before the interst period and also change the rate of how often interest is applied.
           </p>
         </div>
       </div>
@@ -115,10 +115,10 @@ exports[`component/CalculatorMode allows calculator modes to be changed to simpl
          Choose one of the options below to to see how much money you can save:
       </p>
       <div
-        class="css-1wlqeol"
+        class="css-1ebfdb9"
       >
         <div
-          class="css-ocze9x"
+          class="css-1igbll5"
           role="radiogroup"
         >
           <label
@@ -133,7 +133,7 @@ exports[`component/CalculatorMode allows calculator modes to be changed to simpl
             />
             <div
               aria-hidden="true"
-              class="css-1r0ytuv"
+              class="css-1lcjv34"
               data-checked=""
             >
               Simple
@@ -152,7 +152,7 @@ exports[`component/CalculatorMode allows calculator modes to be changed to simpl
             />
             <div
               aria-hidden="true"
-              class="css-1r0ytuv"
+              class="css-1lcjv34"
             >
               Advanced
             </div>
@@ -164,7 +164,7 @@ exports[`component/CalculatorMode allows calculator modes to be changed to simpl
           <p
             class="chakra-text css-8om1m1"
           >
-            This will allow you to see excatly how much your money will grow over time as soon as you make your first deposit.
+            This will allow you to see excatly how much your money will grow over time as soon as you make your first deposit. This will only calculate interest that is compounded annually.
           </p>
         </div>
       </div>
@@ -208,10 +208,10 @@ exports[`component/CalculatorMode renders Calculator Mode component 1`] = `
          Choose one of the options below to to see how much money you can save:
       </p>
       <div
-        class="css-1wlqeol"
+        class="css-1ebfdb9"
       >
         <div
-          class="css-ocze9x"
+          class="css-1igbll5"
           role="radiogroup"
         >
           <label
@@ -227,7 +227,7 @@ exports[`component/CalculatorMode renders Calculator Mode component 1`] = `
             />
             <div
               aria-hidden="true"
-              class="css-1r0ytuv"
+              class="css-1lcjv34"
               data-checked=""
             >
               Simple
@@ -245,7 +245,7 @@ exports[`component/CalculatorMode renders Calculator Mode component 1`] = `
             />
             <div
               aria-hidden="true"
-              class="css-1r0ytuv"
+              class="css-1lcjv34"
             >
               Advanced
             </div>
@@ -257,7 +257,7 @@ exports[`component/CalculatorMode renders Calculator Mode component 1`] = `
           <p
             class="chakra-text css-8om1m1"
           >
-            This will allow you to see excatly how much your money will grow over time as soon as you make your first deposit.
+            This will allow you to see excatly how much your money will grow over time as soon as you make your first deposit. This will only calculate interest that is compounded annually.
           </p>
         </div>
       </div>

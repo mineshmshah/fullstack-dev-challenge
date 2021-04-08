@@ -17,7 +17,10 @@ exports[`component/Savings renders savings component in advanced mode 1`] = `
       <p
         class="chakra-text css-1hgde6q"
       >
-        Total Savings in 50 years
+        
+         
+        
+        's total savings in 50 years will be:
       </p>
       <p
         class="chakra-text css-koy48z"
@@ -427,7 +430,10 @@ exports[`component/Savings renders savings component in simple mode 1`] = `
       <p
         class="chakra-text css-1hgde6q"
       >
-        Total Savings in 50 years
+        
+         
+        
+        's total savings in 50 years will be:
       </p>
       <p
         class="chakra-text css-koy48z"

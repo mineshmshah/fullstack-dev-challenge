@@ -19,7 +19,8 @@ export const SavingsSummary: FC = () => {
             </Text>
 
             <Text fontSize='xl' marginBottom='4' color='grey5' fontWeight='700' textAlign='center'>
-                Total Savings in 50 years
+                {state.details.firstName.value} {state.details.lastName.value}&apos;s total savings
+                in 50 years will be:
             </Text>
             <Text
                 fontSize='lg'

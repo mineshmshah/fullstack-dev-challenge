@@ -40,6 +40,7 @@ export const RadioCard: FC<RadioCardProps> = (props) => {
                 }}
                 px={5}
                 py={3}
+                margin={2}
                 width='150px'
                 textAlign='center'
                 fontSize='sm'
@@ -93,8 +94,20 @@ export const CalculatorMode: FC = () => {
                     Hi <em>{state.details.firstName.value}</em> Choose one of the options below to
                     to see how much money you can save:
                 </Text>
-                <Box backgroundColor='blue200' padding='8' margin='0 100px' borderRadius='8px'>
-                    <Box {...group} display='flex' justifyContent='space-evenly' width='100%'>
+                <Box
+                    backgroundColor='blue200'
+                    padding='8'
+                    margin={{ base: 0, md: '0 100px' }}
+                    borderRadius='8px'
+                >
+                    <Box
+                        {...group}
+                        display='flex'
+                        justifyContent='space-evenly'
+                        width='100%'
+                        flexDirection={{ base: 'column', md: 'row' }}
+                        alignItems='center'
+                    >
                         {options.map((value) => {
                             const radio = getRadioProps({ value })
                             return (
@@ -107,8 +120,8 @@ export const CalculatorMode: FC = () => {
                     <Box padding='2'>
                         <Text fontSize='sm' margin='4' color='blue800'>
                             {state.calculatorMode === 'Simple'
-                                ? 'This will allow you to see excatly how much your money will grow over time as soon as you make your first deposit.'
-                                : 'This advanced setting will let you picture how much you could posssibly make if you were contributing regularly to your account'}
+                                ? 'This will allow you to see excatly how much your money will grow over time as soon as you make your first deposit. This will only calculate interest that is compounded annually.'
+                                : 'This advanced setting will let you picture how much you could posssibly make if you were contributing regularly to your account. You can add monthly contributions before the interst period and also change the rate of how often interest is applied.'}
                         </Text>
                     </Box>
                 </Box>
