@@ -9,6 +9,12 @@ export const Header: FC = () => {
     const { state, dispatch } = useContext(AppContext)
     const validationData = useValidateDetails()
 
+    const renderHeader: () => string = () => {
+        if (state.currentPage === 1) return `Let's start the savings...`
+        if (state.currentPage === 2) return `Let's make things just right for you...`
+        return `And this is how much you can save...`
+    }
+
     return (
         <Box backgroundColor='white' padding='6'>
             <Box display='flex' width='100%' justifyContent='space-evenly' padding='6'>
@@ -34,7 +40,7 @@ export const Header: FC = () => {
                 color='blueHeader'
                 fontWeight='500'
             >
-                Let&apos;s start the savings...
+                {renderHeader()}
             </Text>
         </Box>
     )

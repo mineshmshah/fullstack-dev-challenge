@@ -8,6 +8,7 @@ import { SavingsSummary } from '../SavingsSummary'
 import { SavingsControls } from '../SavingsControls'
 import { SavingsChart } from '../SavingsChart'
 import { postCalculation } from '../../api'
+import { SavingsSuggestions } from '../SavingsSuggestions'
 
 export const Savings: FC = () => {
     const { state, dispatch } = useContext(AppContext)
@@ -60,6 +61,7 @@ export const Savings: FC = () => {
             <SavingsSummary />
             <SavingsControls />
             <SavingsChart />
+            <SavingsSuggestions />
             <PageControls prevPage={prevPage} />
         </Box>
     )

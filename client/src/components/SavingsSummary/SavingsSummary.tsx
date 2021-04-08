@@ -22,7 +22,7 @@ export const SavingsSummary: FC = () => {
                 Total Savings in 50 years
             </Text>
             <Text
-                fontSize='sm'
+                fontSize='lg'
                 marginBottom='4'
                 color='blueHeader'
                 fontWeight='700'

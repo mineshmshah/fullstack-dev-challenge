@@ -187,7 +187,7 @@ exports[`component/Default Layout renders page 2 1`] = `
       <p
         class="chakra-text css-1wvvwig"
       >
-        Let's start the savings...
+        Let's make things just right for you...
       </p>
     </div>
     <div
@@ -335,7 +335,7 @@ exports[`component/Default Layout renders page 3 1`] = `
       <p
         class="chakra-text css-1wvvwig"
       >
-        Let's start the savings...
+        And this is how much you can save...
       </p>
     </div>
     <div
@@ -355,7 +355,7 @@ exports[`component/Default Layout renders page 3 1`] = `
           Total Savings in 50 years
         </p>
         <p
-          class="chakra-text css-nrvl4t"
+          class="chakra-text css-koy48z"
         >
           £ 
         </p>
@@ -527,6 +527,66 @@ exports[`component/Default Layout renders page 3 1`] = `
         >
           Overview
         </p>
+      </div>
+      <div
+        class="css-6z87o"
+      >
+        <p
+          class="chakra-text css-nrvl4t"
+        >
+          Savings Suggestions
+        </p>
+        <p
+          class="chakra-text css-8w3mbw"
+        >
+          Here are some helpful articles just for your needs!
+        </p>
+        <div
+          class="css-12e5m3r"
+        >
+          <div
+            class="css-q6o7lv"
+          >
+            <div
+              class="css-1p3ap9t"
+            >
+              <img
+                alt="Segun Adebayo"
+                class="chakra-image__placeholder css-73nay0"
+              />
+              <a
+                class="chakra-link css-1m2xxl"
+                href="https://www.finimize.com/wp/news/now-youre-cookin/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Finimize: Now You’re Cookin’ 
+                <svg
+                  class="chakra-icon css-q5nc5y"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    />
+                    <path
+                      d="M15 3h6v6"
+                    />
+                    <path
+                      d="M10 14L21 3"
+                    />
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
       <div
         class="css-fo25ua"
